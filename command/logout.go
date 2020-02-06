@@ -57,7 +57,7 @@ func (c *LogoutCommand) Run(args []string) int {
 
 	// From now on, since we've validated the given hostname, we should use
 	// dispHostname in the UI to ensure we're presenting it in the canonical
-	// form, in case that helpers users with debugging when things aren't
+	// form, in case that helps users with debugging when things aren't
 	// working as expected. (Perhaps the normalization is part of the cause.)
 	dispHostname := hostname.ForDisplay()
 
